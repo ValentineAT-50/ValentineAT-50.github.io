@@ -80,8 +80,6 @@ html, body {
       font-size: 64px;
       letter-spacing: 12px;
     }
-
-  
     .button-back:hover {
   background-color: rgba(190, 36, 2, 0.821);
 }
