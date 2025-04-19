@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Rubik Wet Paint", cursive; /* Шрифт для тексту */
+  font-family: "Rubik Wet Paint", cursive; 
   background: url("frame 3.png") no-repeat center center fixed;
   background-size: cover;
   display: flex;
@@ -28,16 +28,16 @@ body {
   margin-top: 60px;
   border-radius: 20px;
   padding: 40px;
-  width: 90%; /* Встановлено ширину 90% від екрану для адаптивності */
-  max-width: 1000px; /* Максимальна ширина */
+  width: 90%; 
+  max-width: 1000px; 
   text-align: center;
 }
 
 .dark-fantasy-text {
   color: white;
-  font-size: 1.3vw; /* Шрифт змінюється в залежності від ширини вікна */
+  font-size: 1.3vw; 
   line-height: 1.6;
-  word-wrap: break-word; /* Розбиває слова, якщо вони не влазять в контейнер */
+  word-wrap: break-word;
 }
 
 .button-back {
@@ -51,7 +51,7 @@ body {
   text-align: center;
   display: inline-block;
   transition: background 0.3s ease;
-  font-family: "DM Serif Text", serif; /* Шрифт для кнопки */
+  font-family: "DM Serif Text", serif;
 }
 
 .button-back:hover {
