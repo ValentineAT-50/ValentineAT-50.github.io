@@ -59,6 +59,7 @@ body {
 }
 
 .button-back {
+  text-decoration: none;
   margin-top: 20px;
   padding: 15px 30px;
   font-size: 20px;
@@ -69,11 +70,6 @@ body {
   text-align: center;
   transition: background 0.3s ease;
 }
-
-.button-back {
-  background-color: #333;
-}
-
 .button-back:hover {
   background-color: rgba(190, 36, 2, 0.821);
 }
