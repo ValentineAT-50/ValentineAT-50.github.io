@@ -56,4 +56,5 @@ body {
 
 .button-back:hover {
   background-color: rgba(190, 36, 2, 0.821);
+  color: black;
 }
