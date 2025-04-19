@@ -70,6 +70,6 @@ body {
   text-align: center;
   transition: background 0.3s ease;
 }
-.button-back:hover {
+.button-back {
   background-color: rgba(190, 36, 2, 0.821);
 }
