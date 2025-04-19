@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik Wet Paint", cursive; /* Шрифт для тексту */
+  background: url("frame 3.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background-color: rgba(5, 0, 0, 0.8);
+  margin-top: 60px;
+  border-radius: 20px;
+  padding: 40px;
+  width: 90%; /* Встановлено ширину 90% від екрану для адаптивності */
+  max-width: 1000px; /* Максимальна ширина */
+  text-align: center;
+}
+
+.dark-fantasy-text {
+  color: white;
+  font-size: 1.3vw; /* Шрифт змінюється в залежності від ширини вікна */
+  line-height: 1.6;
+  word-wrap: break-word; /* Розбиває слова, якщо вони не влазять в контейнер */
+}
+
+.button-back {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  transition: background 0.3s ease;
+  font-family: "DM Serif Text", serif; /* Шрифт для кнопки */
+}
+
+.button-back:hover {
+  background-color: rgba(190, 36, 2, 0.821);
+}
