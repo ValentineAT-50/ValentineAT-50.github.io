@@ -70,7 +70,7 @@ body {
   transition: background 0.3s ease;
 }
 
-.button-back:hover {
+.button-back {
   background-color: #333;
 }
 
